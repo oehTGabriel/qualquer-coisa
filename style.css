@@ -1,0 +1,137 @@
+*{
+    margin:0;
+    padding: 0;
+
+}
+
+.titulo {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: 60px;
+    display: flex;
+    position: absolute;
+    width:205vh;
+    align-items: center;
+    justify-content: center;
+    font-size: x-large;
+    border-radius: 16px;
+    border-style: solid;
+    border-color: black; 
+    background: rgb(255,0,0);
+background: linear-gradient(90deg, rgba(255,0,0,0.6180847338935574) 0%, rgba(255,255,255,0.8085609243697479) 50%, rgba(0,0,0,0.5816701680672269) 100%);
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 20px 40px 0 rgba(00,0,0.19); 
+     
+}
+
+.foto1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 900px;
+    margin-left: 450px;
+    position: absolute;
+    border-radius: 16px;
+    border-style: solid;
+    margin-top:20vh;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 20px 40px 0 rgba(00,0,0.19);
+    
+}
+
+
+.fundo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 207vh;
+    margin-left: 0vh;
+    margin-top: 0;
+}
+
+.botao1{
+    display: flex;
+    position: absolute;
+    font-size: 50px;
+    margin-left: 178vh;
+    margin-top: 20vh;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(00,0,0.19);
+
+}
+
+.botao2{
+    display: flex;
+    position: absolute;
+    font-size: 50px;
+    margin-left: 178vh;
+    margin-top: 30vh;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(00,0,0.19);
+
+}
+.botao3{
+    display: flex;
+    position: absolute;
+    font-size: 50px;
+    margin-left: 178vh;
+    margin-top: 40vh;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(00,0,0.19);
+
+
+
+}
+
+.botao4{
+    justify-content: center;
+    width: 200px;
+    border-style: solid;
+    background-color: rgba(255, 255, 255, 0.103);
+    border-radius: 16px;
+    display: flex;
+    position: absolute;
+    font-size: 50px;
+    margin-left: 90vh;
+    margin-top: 70vh;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(00,0,0.19);
+
+}
+
+.bah{
+    justify-content: center;
+    width: 200px;
+    border-style: solid;
+    background-color: rgba(255, 255, 255, 0.103);
+    border-radius: 16px;
+}
+
+.bah:hover{
+    font-size: 55px;
+    border-radius: 5px;
+    background-color: rgba(255, 0, 0, 0.144);
+
+}
+
+.botao4:hover{
+    font-size: 55px;
+    border-radius: 5px;
+    background-color: rgba(255, 0, 0, 0.13);
+}
+
+.texto{
+    position: absolute;
+    justify-content: center;
+    width: 800px;
+    border-style: solid;
+    background-color: rgba(255, 255, 255, 0.205);
+    border-radius: 16px;
+    border-width: 8px;
+    margin-top: 100vh;
+    margin-left: 55vh;
+    font-size: 50px;
+    align-content: center;
+    text-align: center;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(00,0,0.19);
+}
+
+.texto:hover{
+    padding: 20px;
+    margin-left:53vh;
+    background-color: rgb(255, 255, 255);
+
+}
